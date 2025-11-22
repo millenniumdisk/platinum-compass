@@ -1,6 +1,10 @@
 # platinum-compass
 Programming notes for C, C++, Python, etc.
 
+# VS Code Config
+- Cyberpunk Theme - Scarlet Protocol (Beta)
+- Markdown All In One
+  
 # High Priority
 - JavaScript - 71 hours at 50% (1 week)
 - MySQL - 10.5 hours (1 week)
