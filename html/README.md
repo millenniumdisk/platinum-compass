@@ -17,13 +17,6 @@ comment - used to label or describe parts of a code
 </html>
 ```
 
-attributes - provides additional information about the element
-```html
-<html lang="en">
-	<!-- code here -->
-</html>
-```
-
 `<head>` - provides additional information about the html page
 ```html
 <head>
@@ -51,6 +44,18 @@ attributes - provides additional information about the element
 `<p>` - create a paragraph
 ```html
 <p>This is a paragraph</p>
+```
+
+attributes - provides additional information about the element
+```html
+<p title="This is a tooltip">The weather today is fair</p>
+```
+
+`lang` - specifies the language of the web page
+```html
+<html lang="en">
+	<!-- code here -->
+</html>
 ```
 
 relative address - a website address that is short since it is in the same domain
