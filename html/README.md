@@ -32,6 +32,9 @@ comment - used to label or describe parts of a code
 <title>My First Page</title>
 ```
 
+## link, body, heading, paragraph tags and page icon
+<hr>
+
 `<link>` - can be used to connect a css file to the html file
 ```html
 <link rel="stylesheet" href="styles.css">
