@@ -1,2 +1,5 @@
 # Platinum Compass
-Public repository for programming notes.
+
+Created by: Millennium Disk
+Repository Type: Public
+Description: Notes for programming.
