@@ -46,6 +46,16 @@ comment - used to label or describe parts of a code
 <p>This is a paragraph</p>
 ```
 
+`<a>` - create a link
+```html
+<a href="www.google.com">Google Link</a>
+```
+
+`<img>` - image element
+```html
+<img src="images/cat_pic1.jpg" alt="cat" width="200" height="100">
+```
+
 create a new file in vs code -> save it with a .html file extension -> write ! -> press tab -> html boilerplate code will be generated
 
 `<ul>` - used for lists without worrying about the order of items
