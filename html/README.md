@@ -78,10 +78,22 @@ absolute path - a complete file address where the file is located
 <a href="www.google.com">Google Link</a>
 ```
 
+`_blank` - open the link in a new tab
+```html
+<a href="www.google.com" target="_blank">Google Link</a>
+```
+
 `<img>` - image element
 ```html
 <img src="images/cat_pic1.jpg" alt="cat" width="200" height="100">
 ```
+
+`mailto` - use the link to send an email
+```html
+<a href="mailto:zenferringson@gmail.com">Send an email to the link</a>
+```
+
+bookmark - when a web page is very big, specific portions of the page can be bookmarked and clicked in a link to go to that part
 
 `<b>` - bold text
 ```html
