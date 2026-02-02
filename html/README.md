@@ -110,7 +110,7 @@ absolute path - a complete file address where the file is located
 <img src="images/cat_pic1.jpg" alt="cat" width="200" height="100">
 ```
 
-bookmark - when a web page is very big, specific portions of the page can be bookmarked and clicked in a link to go to that part
+bookmark - when a web page is very big, specific portions of the page can be bookmarked for quick navigation
 
 element id - unique name of an html element used for modifying its appearance
 
