@@ -66,8 +66,11 @@ attributes - provides additional information about the element
 create a new file in vs code -> save it with a .html file extension -> write ! -> press tab -> boilerplate code is generated
 
 relative address - a website address that is short since it is in the same domain
+
 absolute address - a complete website address which usually points to an external site
+
 relative path - a short file address where the file exists in the same or nearby location
+
 absolute path - a complete file address where the file is located
 
 `<a>` - create a link
