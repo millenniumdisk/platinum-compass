@@ -36,11 +36,15 @@ comment - used to label or describe parts of a code
 </body>
 ```
 
-`<p>` - create a paragraph element
+`<h1>` - display a heading with values 1 to 6
+```html
+<h1>Programming Notes</h1>
+```
+
+`<p>` - create a paragraph
 ```html
 <p>This is a paragraph</p>
 ```
-
 
 create a new file in vs code -> save it with a .html file extension -> write ! -> press tab -> html boilerplate code will be generated
 
