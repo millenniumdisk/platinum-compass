@@ -2,6 +2,7 @@
 
 ## comments and basic html tags (doctype, html, head and title tags)
 <hr>
+
 comment - used to label or describe parts of a code
 ```html
 <!-- this is a comment -->
