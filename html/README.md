@@ -58,6 +58,8 @@ attributes - provides additional information about the element
 </html>
 ```
 
+create a new file in vs code -> save it with a .html file extension -> write ! -> press tab -> boilerplate code is generated
+
 relative address - a website address that is short since it is in the same domain
 absolute address - a complete website address which usually points to an external site
 relative path - a short file address where the file exists in the same or nearby location
@@ -73,7 +75,10 @@ absolute path - a complete file address where the file is located
 <img src="images/cat_pic1.jpg" alt="cat" width="200" height="100">
 ```
 
-create a new file in vs code -> save it with a .html file extension -> write ! -> press tab -> boilerplate code is generated
+`<b>` - bold text
+```html
+<p>This is a <b>short</b> paragraph</p>
+```
 
 `<ul>` - used for lists without worrying about the order of items
 ```html
