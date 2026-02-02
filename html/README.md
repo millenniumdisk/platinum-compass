@@ -56,7 +56,7 @@ comment - used to label or describe parts of a code
 <img src="images/cat_pic1.jpg" alt="cat" width="200" height="100">
 ```
 
-create a new file in vs code -> save it with a .html file extension -> write ! -> press tab -> html boilerplate code will be generated
+create a new file in vs code -> save it with a .html file extension -> write ! -> press tab -> boilerplate code is generated
 
 `<ul>` - used for lists without worrying about the order of items
 ```html
