@@ -1,7 +1,6 @@
 # html
 
 comment - used to label or describe parts of a code
-
 ```html
 <!-- this is a comment -->
 ```
@@ -25,6 +24,11 @@ comment - used to label or describe parts of a code
 </head>
 ```
 
+`<title>` - sets the title of the html page
+```html
+<title>My First Page</title>
+```
+
 `<body>` - contains html elements that are visible in the html page
 ```html
 <body>
@@ -32,9 +36,10 @@ comment - used to label or describe parts of a code
 </body>
 ```
 
-`<title>` - sets the title of the html page
+`<p>` - create a paragraph element
 ```html
-<title>My First Page</title>
+<p>This is a paragraph</p>
 ```
+
 
 create a new file in vs code -> save it with a .html file extension -> write ! -> press tab -> html boilerplate code will be generated
