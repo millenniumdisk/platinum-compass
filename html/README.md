@@ -43,3 +43,26 @@ comment - used to label or describe parts of a code
 
 
 create a new file in vs code -> save it with a .html file extension -> write ! -> press tab -> html boilerplate code will be generated
+
+`<ul>` - used for lists without worrying about the order of items
+```html
+<ul>
+	<!-- code here -->
+</ul>
+```
+
+`<ol>` - used for lists with numbered items
+```html
+<ol>
+	<!-- code here -->
+</ol>
+```
+
+`<li>` - the item in a list
+```html
+<li>read a book</li>
+```
+
+form
+button
+input
