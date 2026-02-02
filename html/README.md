@@ -6,13 +6,13 @@ comment - used to label or describe parts of a code
 <!-- this is a comment -->
 ```
 
-<doctype> - tells the browser the file is an html5 document
+`<doctype>` - tells the browser the file is an html5 document
 
 ```html
 <!DOCTYPE html>
 ```
 
-<html> - html elements are placed inside the html tag
+`<html>` - html elements are placed inside the html tag
 
 ```html
 <html>
