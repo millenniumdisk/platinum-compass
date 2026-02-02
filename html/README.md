@@ -5,8 +5,6 @@ comment - used to label or describe parts of a code
 <!-- this is a comment -->
 ```
 
-attributes - provides additional information about the element
-
 `<doctype>` - tells the browser the file is an html5 document
 ```html
 <!DOCTYPE html>
@@ -16,6 +14,13 @@ attributes - provides additional information about the element
 ```html
 <html>
 	<!-- code block here -->
+</html>
+```
+
+attributes - provides additional information about the element
+```html
+<html lang="en">
+	<!-- code here -->
 </html>
 ```
 
