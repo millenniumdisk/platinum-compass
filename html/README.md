@@ -32,7 +32,7 @@ comment - used to label or describe parts of a code
 <title>My First Page</title>
 ```
 
-## link, body, heading, paragraph tags and page icon
+## body, heading, paragraph, link tags and page icon
 <hr>
 
 `<link>` - can be used to connect a css file to the html file
@@ -62,6 +62,9 @@ page icon - displays a small icon near the page title
 <p>This is a paragraph</p>
 ```
 
+## attributes, lang attribute, boilerplate code, urls, link
+<hr>
+
 attributes - provides additional information about the element
 ```html
 <p title="This is a tooltip">The weather today is fair</p>
@@ -89,6 +92,9 @@ absolute path - a complete file address where the file is located
 <a href="www.google.com">Google Link</a>
 ```
 
+## _blank attribute, mailto, img tag, bookmark, element id
+<hr>
+
 `_blank` - open the link in a new tab
 ```html
 <a href="www.google.com" target="_blank">Google Link</a>
@@ -105,6 +111,8 @@ absolute path - a complete file address where the file is located
 ```
 
 bookmark - when a web page is very big, specific portions of the page can be bookmarked and clicked in a link to go to that part
+
+element id - unique name of an html element used for modifying its appearance
 
 `<b>` - bold text
 ```html
