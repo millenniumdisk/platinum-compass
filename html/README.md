@@ -34,6 +34,11 @@ comment - used to label or describe parts of a code
 <link rel="stylesheet" href="styles.css">
 ```
 
+page icon - displays a small icon near the page title
+```html
+<link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+```
+
 `<body>` - contains html elements that are visible in the html page
 ```html
 <body>
