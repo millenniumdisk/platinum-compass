@@ -109,7 +109,7 @@ absolute path - a complete file address where the file is located
 <a href="mailto:zenferringson@gmail.com">Send an email to the link</a>
 ```
 
-bookmark, img tag, element id, element class, bold text
+## bookmark, img tag, element id, element class, bold text
 <hr>
 
 `<img>` - image element
