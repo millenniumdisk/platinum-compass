@@ -32,13 +32,12 @@ comment - used to label or describe parts of a code
 <title>My First Page</title>
 ```
 
-## body, heading, paragraph, link tags and page icon
+## meta, body, link tags, viewport and page icon
 <hr>
 
-`<link>` - can be used to connect a css file to the html file
-```html
-<link rel="stylesheet" href="styles.css">
-```
+meta
+
+viewport
 
 page icon - displays a small icon near the page title
 ```html
@@ -52,6 +51,14 @@ page icon - displays a small icon near the page title
 </body>
 ```
 
+`<link>` - can be used to connect a css file to the html file
+```html
+<link rel="stylesheet" href="styles.css">
+```
+
+## heading, paragraph, attributes, lang attribute, boilerplate code
+<hr>
+
 `<h1>` - display a heading with values 1 to 6
 ```html
 <h1>Programming Notes</h1>
@@ -61,9 +68,6 @@ page icon - displays a small icon near the page title
 ```html
 <p>This is a paragraph</p>
 ```
-
-## attributes, lang attribute, boilerplate code, urls, link
-<hr>
 
 attributes - provides additional information about the element
 ```html
@@ -79,6 +83,9 @@ attributes - provides additional information about the element
 
 create a new file in vs code -> save it with a .html file extension -> write ! -> press tab -> boilerplate code is generated
 
+## urls, file path, link, _blank attribute, mailto
+<hr>
+
 relative address - a website address that is short since it is in the same domain
 
 absolute address - a complete website address which usually points to an external site
@@ -92,9 +99,6 @@ absolute path - a complete file address where the file is located
 <a href="www.google.com">Google Link</a>
 ```
 
-## _blank attribute, mailto, img tag, bookmark, element id
-<hr>
-
 `_blank` - open the link in a new tab
 ```html
 <a href="www.google.com" target="_blank">Google Link</a>
@@ -105,6 +109,9 @@ absolute path - a complete file address where the file is located
 <a href="mailto:zenferringson@gmail.com">Send an email to the link</a>
 ```
 
+bookmark, img tag, element id, element class, bold text
+<hr>
+
 `<img>` - image element
 ```html
 <img src="images/cat_pic1.jpg" alt="cat" width="200" height="100">
@@ -112,9 +119,9 @@ absolute path - a complete file address where the file is located
 
 bookmark - when a web page is very big, specific portions of the page can be bookmarked for quick navigation
 
-element id - unique name of an html element used for modifying its appearance
+element id - unique name of an html element used for modifying its style
 
-classes
+element class - a group name where the element belongs to used for modifying their style
 
 `<b>` - bold text
 ```html
@@ -148,20 +155,11 @@ inline
 
 div
 
-meta
-
-viewport
-
 header
-
 nav
-
 section
-
 article
-
 aside
-
 footer
 
 span
