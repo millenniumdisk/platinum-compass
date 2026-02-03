@@ -114,6 +114,8 @@ bookmark - when a web page is very big, specific portions of the page can be boo
 
 element id - unique name of an html element used for modifying its appearance
 
+classes
+
 `<b>` - bold text
 ```html
 <p>This is a <b>short</b> paragraph</p>
@@ -138,6 +140,40 @@ element id - unique name of an html element used for modifying its appearance
 <li>read a book</li>
 ```
 
+table
+
+block
+
+inline
+
+div
+
+meta
+
+viewport
+
+header
+
+nav
+
+section
+
+article
+
+aside
+
+footer
+
+span
+
+main
+
+html entities
+
+html symbols
+
 form
+
 button
+
 input
