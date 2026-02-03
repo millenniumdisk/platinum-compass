@@ -109,7 +109,7 @@ absolute path - a complete file address where the file is located
 <a href="mailto:zenferringson@gmail.com">Send an email to the link</a>
 ```
 
-## bookmark, img tag, element id, element class, bold text
+## id and class attribute, bookmark, img tag, bold text
 <hr>
 
 `<img>` - image element
@@ -117,11 +117,11 @@ absolute path - a complete file address where the file is located
 <img src="images/cat_pic1.jpg" alt="cat" width="200" height="100">
 ```
 
+id attribute - unique name of an html element used for modifying its style
+
+class attribute - a group name which the element belongs to and is used for modifying the group's style
+
 bookmark - when a web page is very big, specific portions of the page can be bookmarked for quick navigation
-
-element id - unique name of an html element used for modifying its style
-
-element class - a group name where the element belongs to used for modifying their style
 
 `<b>` - bold text
 ```html
@@ -173,6 +173,8 @@ put id attribute before bookmark
 html entities
 
 html symbols
+
+svg
 
 form
 
