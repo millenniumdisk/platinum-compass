@@ -32,8 +32,13 @@
 <title>My First Page</title>
 ```
 
-## meta, body, link tags, viewport and page icon
+## attributes, meta and link tag, viewport and page icon
 <hr>
+
+attributes - provide additional information about the element
+```html
+<p title="This is a tooltip">The weather today is fair</p>
+```
 
 meta - provides additional information about the web page
 ```html
@@ -45,10 +50,18 @@ viewport - how the visible part of the web page should be sized
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 ```
 
+`<link>` - can be used to connect a css file to the html file
+```html
+<link rel="stylesheet" href="styles.css">
+```
+
 page icon - displays a small icon near the page title
 ```html
 <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
 ```
+
+## body, heading, paragraph, lang attribute, boilerplate code
+<hr>
 
 `<body>` - contains html elements that are visible in the html page
 ```html
@@ -56,14 +69,6 @@ page icon - displays a small icon near the page title
 	<!-- code here -->
 </body>
 ```
-
-`<link>` - can be used to connect a css file to the html file
-```html
-<link rel="stylesheet" href="styles.css">
-```
-
-## heading, paragraph, attributes, lang attribute, boilerplate code
-<hr>
 
 `<h1>` - display a heading with values 1 to 6
 ```html
@@ -75,11 +80,6 @@ page icon - displays a small icon near the page title
 <p>This is a paragraph</p>
 ```
 
-attributes - provides additional information about the element
-```html
-<p title="This is a tooltip">The weather today is fair</p>
-```
-
 `lang` - specifies the language of the web page
 ```html
 <html lang="en">
@@ -87,7 +87,9 @@ attributes - provides additional information about the element
 </html>
 ```
 
-boilerplate code - vs code -> new file -> save with a .html file extension & set language to html -> write ! -> press tab -> boilerplate code is generated
+boilerplate code - code that is always added because it is usually needed for a program to work
+
+vs code -> new file -> save with a .html file extension & set language to html -> write ! -> press tab -> boilerplate code is generated
 
 ## urls, file path, link, _blank attribute, mailto
 <hr>
