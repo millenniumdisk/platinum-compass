@@ -3,31 +3,31 @@
 ## comments and basic html tags (doctype, html, head and title tags)
 <hr>
 
-comment - used to label or describe parts of a code
+- comment - used to label or describe part of a code
 ```html
 <!-- this is a comment -->
 ```
 
-`<doctype>` - tells the browser the file is an html5 document
+- `<doctype>` - tells the browser the file is an html5 document
 ```html
 <!DOCTYPE html>
 ```
 
-`<html>` - html elements are placed inside the html tag
+- `<html>` - html elements are placed inside the html tag
 ```html
 <html>
 	<!-- code block here -->
 </html>
 ```
 
-`<head>` - provides additional information about the html page
+- `<head>` - provides additional information about the html page
 ```html
 <head>
 	<!-- code here -->
 </head>
 ```
 
-`<title>` - sets the title of the html page
+- `<title>` - sets the title of the html page
 ```html
 <title>My First Page</title>
 ```
@@ -35,9 +35,15 @@ comment - used to label or describe parts of a code
 ## meta, body, link tags, viewport and page icon
 <hr>
 
-meta
+meta - provides additional information about the web page
+```html
+<meta charset="UTF-8">
+```
 
-viewport
+viewport - how the visible part of the web page should be sized
+```html
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+```
 
 page icon - displays a small icon near the page title
 ```html
@@ -81,7 +87,7 @@ attributes - provides additional information about the element
 </html>
 ```
 
-vs code -> new file -> save with a .html file extension & set language to html -> write ! -> press tab -> boilerplate code is generated
+boilerplate code - vs code -> new file -> save with a .html file extension & set language to html -> write ! -> press tab -> boilerplate code is generated
 
 ## urls, file path, link, _blank attribute, mailto
 <hr>
