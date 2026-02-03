@@ -81,7 +81,7 @@ attributes - provides additional information about the element
 </html>
 ```
 
-create a new file in vs code -> save it with a .html file extension and set the language to html -> write ! -> press tab -> boilerplate code is generated
+vs code -> new file -> save with a .html file extension & set language to html -> write ! -> press tab -> boilerplate code is generated
 
 ## urls, file path, link, _blank attribute, mailto
 <hr>
