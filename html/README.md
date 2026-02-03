@@ -166,6 +166,10 @@ span
 
 main
 
+self-closing tags
+
+put id attribute before bookmark
+
 html entities
 
 html symbols
