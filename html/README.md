@@ -174,9 +174,8 @@ summary
 </html>
 ```
 
-## section 5 - id and class attribute, bookmark, img tag
+## section 5 - id and class attribute, bookmark, img tag, bold text
 <hr>
-
 
 - `<img>` - image element
 ```html
@@ -185,13 +184,36 @@ summary
 - id attribute - unique name of an html element used for modifying its style
 - class attribute - a group name which the element belongs to and is used for modifying the group's style
 - bookmark - when a web page is very big, specific portions of the page can be bookmarked for quick navigation
-
-## section 6 - bold text, unordered list, ordered list, list item, nested list
-
 - `<b>` - bold text
 ```html
 <p>This is a <b>short</b> paragraph</p>
 ```
+
+summary
+```html
+<!-- p4 html with id, class img tag and bold text -->
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Random Trivias</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<h1>Trivias</h1>
+		<h2 id="header1">Clouds</h2>
+		<p class="paragraph-group1">Clouds are heavy</p>
+		<h2>Giraffes</h2>
+		<p class="paragraph-group1">Giraffes are more likely to get hit by <b>lightning</b> than people</p>
+		<img src="images/cat_pic1.jpg" alt="cat" width="200" height="100">
+		<script src="script.js"></script>
+	</body>
+</html>
+```
+
+## section 6 - unordered list, ordered list, list item, nested list
+
 - `<ul>` - used for lists without worrying about the order of items
 ```html
 <ul>
@@ -209,9 +231,6 @@ summary
 <li>read a book</li>
 ```
 - nested list - a list inside a list
-
-
-
 
 table
 
