@@ -71,6 +71,7 @@ summary
 ```html
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 ```
+
 summary
 ```html
 <!-- p2 html with charset, viewport and title -->
@@ -132,11 +133,11 @@ summary
 </html>
 ```
 
-## section 4 - urls, file path, link, _blank attribute
+## section 4 - urls, file path, link, _blank, mailto
 <hr>
 
 - url types
-	- relative address - a website address that is short since it is in the same domain
+	- relative address - a website address that is short which usually points to an internal page in the same url
 	- absolute address - a complete website address which usually points to an external site
 - file path types
 	- relative path - a short file address where the file exists in the same or nearby location
@@ -149,14 +150,34 @@ summary
 ```html
 <a href="www.google.com" target="_blank">Google Link</a>
 ```
-
-## section 5 - mailto, id and class attribute, bookmark, img tag
-<hr>
-
 - `mailto` - use the link to send an email
 ```html
 <a href="mailto:zenferringson@gmail.com">Send an email to the link</a>
 ```
+
+summary
+```html
+<!-- p4 html with links -->
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Random Trivias</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<a href="www.google.com">Google Link</a>
+		<a href="www.yahoo.com" target="_blank">Yahoo Link</a>
+		<script src="script.js"></script>
+	</body>
+</html>
+```
+
+## section 5 - id and class attribute, bookmark, img tag
+<hr>
+
+
 - `<img>` - image element
 ```html
 <img src="images/cat_pic1.jpg" alt="cat" width="200" height="100">
