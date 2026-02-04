@@ -1,19 +1,22 @@
 # HTML
 
-## section 1 - connect a css file, connect a javascript file, comments, doctype and html tags
+## section 1 - external css/javascript, doctype, html, head and body tags
 <hr>
 
-- `<link>` - can be used to connect a css file to the html file when placed inside `<head>`
+- external css/javascript
+	- `<link>` - can be used to connect a css file to the html file when placed inside `<head>`
+	```html
+	<link rel="stylesheet" type="text/css" href="style.css">
+	```
+	- `<script>` - can be used to connect a javascript file to the html file when placed inside `<body>` but at the very bottom part to let html elements load first then execute the javascript file
+	```html
+	<script src="script.js"></script> 
+	```
+- `<head>` - provides additional information about the html page
 ```html
-<link rel="stylesheet" type="text/css" href="style.css">
-```
-- `<script>` - can be used to connect a javascript file to the html file when placed inside `<body>` but at the very bottom part to let html elements load first then execute the javascript file
-```html
-<script src="script.js"></script> 
-```
-- comment - used to label or describe part of a code
-```html
-<!-- this is a comment -->
+<head>
+	<!-- code here -->
+</head>
 ```
 - `<doctype>` - tells the browser the file is an html5 document
 ```html
@@ -25,15 +28,33 @@
 	<!-- code block here -->
 </html>
 ```
+- `<body>` - contains html elements that are visible in the html page
+```html
+<body>
+	<!-- code here -->
+</body>
+```
 
-## section 2 - head, title, meta tags, attributes and viewport
+summary
+```html
+<!-- p1 simple starting html code -->
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<script src="script.js"></script>
+	</body>
+</html>
+```
+
+## section 2 - comments, title, meta tags, attributes and viewport
 <hr>
 
-- `<head>` - provides additional information about the html page
+- comment - used to label or describe part of a code
 ```html
-<head>
-	<!-- code here -->
-</head>
+<!-- this is a comment -->
 ```
 - `<title>` - sets the title of the html page
 ```html
@@ -52,18 +73,19 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 ```
 
-## section 3 - page icon, body, heading, paragraph and lang attribute
+summary
+```html
+<!DOCTYPE html>
+<html>
+</html>
+```
+
+## section 3 - page icon, heading, paragraph, lang attribute and boilerplate code
 <hr>
 
 - page icon - displays a small icon near the page title
 ```html
 <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
-```
-- `<body>` - contains html elements that are visible in the html page
-```html
-<body>
-	<!-- code here -->
-</body>
 ```
 - `<h1>` - display a heading with values 1 to 6
 ```html
@@ -80,7 +102,7 @@
 </html>
 ```
 
-## section 4 - boilerplate code, urls, file path, link, _blank attribute
+## section 4 - urls, file path, link, _blank attribute
 <hr>
 
 - boilerplate code - code that is always added because it is usually needed for a program to work
