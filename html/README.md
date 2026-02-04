@@ -191,7 +191,7 @@ summary
 
 summary
 ```html
-<!-- p4 html with id, class img tag and bold text -->
+<!-- p5 html with id, class img tag and bold text -->
 <!DOCTYPE html>
 <html lang="en">
 	<head>
