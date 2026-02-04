@@ -34,7 +34,6 @@
 	<!-- code here -->
 </body>
 ```
-
 summary
 ```html
 <!-- p1 simple starting html code -->
@@ -72,11 +71,19 @@ summary
 ```html
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 ```
-
 summary
 ```html
 <!DOCTYPE html>
 <html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Random Trivias</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<script src="script.js"></script>
+	</body>
 </html>
 ```
 
