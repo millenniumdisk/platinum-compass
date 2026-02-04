@@ -1,7 +1,17 @@
 # html
 
-## comments and basic html tags (doctype, html, head and title tags)
+## css-html linking, javascript-html linking, comments, doctype, html tags
 <hr>
+
+`<link>` - can be used to connect a css file to the html file
+```html
+<link rel="stylesheet" type="text/css" href="style.css">
+```
+
+`<script>` - can be used to connect a javascript file to the html file
+```html
+<script src="script.js"></script> 
+```
 
 - comment - used to label or describe part of a code
 ```html
@@ -19,6 +29,8 @@
 	<!-- code block here -->
 </html>
 ```
+## head, title, attributes, meta tag, viewport and page icon
+<hr>
 
 - `<head>` - provides additional information about the html page
 ```html
@@ -31,9 +43,6 @@
 ```html
 <title>My First Page</title>
 ```
-
-## attributes, meta and link tag, viewport and page icon
-<hr>
 
 attributes - provide additional information about the element
 ```html
@@ -50,10 +59,7 @@ viewport - how the visible part of the web page should be sized
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 ```
 
-`<link>` - can be used to connect a css file to the html file
-```html
-<link rel="stylesheet" href="styles.css">
-```
+
 
 page icon - displays a small icon near the page title
 ```html
