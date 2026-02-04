@@ -73,6 +73,7 @@ summary
 ```
 summary
 ```html
+<!-- p2 html with charset, viewport and title -->
 <!DOCTYPE html>
 <html>
 	<head>
