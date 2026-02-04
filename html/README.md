@@ -109,13 +109,31 @@ summary
 	<!-- code here -->
 </html>
 ```
-
-## section 4 - urls, file path, link, _blank attribute
-<hr>
-
 - boilerplate code - code that is always added because it is usually needed for a program to work
 
 vs code -> new file -> save with a .html file extension & set language to html -> write ! -> press tab -> boilerplate code is generated
+
+summary
+```html
+<!-- p3 heading, paragraph, lang attribute -->
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Random Trivias</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<h1>Amazing TIL (Today I Learned)</h1>
+		<p>This is a paragraph</p>
+		<script src="script.js"></script>
+	</body>
+</html>
+```
+
+## section 4 - urls, file path, link, _blank attribute
+<hr>
 
 - url types
 	- relative address - a website address that is short since it is in the same domain
