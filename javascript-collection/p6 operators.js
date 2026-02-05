@@ -68,3 +68,8 @@ console.log(3 == 3);
 console.log(3 == 5);
 console.log(9 != 2);
 console.log(9 != 9);
+
+// combine or concatenate stringss
+message1 = "It is a ";
+message2 = "good morning";
+console.log(message1 + message2);
