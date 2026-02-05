@@ -2,7 +2,7 @@
 
 // primitive
 let studentName = "Ferringson";
-let studentAge = 25;
+let studentAge = 25; // a floating point with decimal
 let isPlayerAlive = true;
 
 let bigNumber1 = 89751234654315649346n; // there is a letter n at the end
