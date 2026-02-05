@@ -3,6 +3,7 @@
 // primitive
 let studentName = "Ferringson";
 let studentAge = 25; // a floating point with decimal
+let money = 72.65;
 let isPlayerAlive = true;
 
 let bigNumber1 = 89751234654315649346n; // there is a letter n at the end
@@ -21,6 +22,7 @@ let playerObject = {
 
 console.log(typeof studentName);
 console.log(typeof studentAge);
+console.log(typeof money);
 console.log(typeof isPlayerAlive);
 console.log(typeof bigNumber1);
 console.log(typeof bigNumber2);
