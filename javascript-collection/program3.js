@@ -18,3 +18,13 @@ let playerObject = {
   defense: 20412,
   speed: 9241
 };
+
+console.log(typeof studentName);
+console.log(typeof studentAge);
+console.log(typeof isPlayerAlive);
+console.log(typeof bigNumber1);
+console.log(typeof bigNumber2);
+console.log(typeof message);
+console.log(typeof value1);
+console.log(typeof value2);
+console.log(typeof playerObject);
