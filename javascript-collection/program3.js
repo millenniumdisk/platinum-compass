@@ -14,5 +14,7 @@ const value2 = Symbol();
 
 // object
 let playerObject = {
-  health: 73924
+  health: 73924,
+  defense: 20412,
+  speed: 9241
 };
