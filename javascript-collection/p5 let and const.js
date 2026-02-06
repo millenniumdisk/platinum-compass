@@ -1,4 +1,5 @@
 // p5 let and const
+"use strict";
 
 // let allows us to change the value later on
 let value1;
