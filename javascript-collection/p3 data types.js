@@ -1,4 +1,5 @@
 // p3 data types
+"use strict";
 
 // primitive
 let studentName = "Ferringson";
