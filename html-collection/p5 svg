@@ -1,3 +1,32 @@
+<!-- p5 ul and ol -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
 
-<!-- svg of html icon from https://ionic.io/ionicons -->
-<svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><path d="M64 32l34.94 403.21L255.77 480 413 435.15 448 32zm308 132H188l4 51h176l-13.51 151.39L256 394.48l-98.68-28-6.78-77.48h48.26l3.42 39.29L256 343.07l53.42-14.92L315 264H148l-12.59-149.59H376.2z"/></svg>
+    <title>Introduction to HTML</title>
+    
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+  </head>
+  <body>
+
+    <h1>SVG</h1>
+
+    <!--
+    svg of html icon from https://ionic.io/ionicons
+    even if svg file is not in the folder of website project where index.html is,
+    svg will be working because inline svg is used
+    -->
+    <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512">
+      <path d="M64 32l34.94 403.21L255.77 480 413 435.15 448 32zm308 132H188l4 51h176l-13.51 151.39L256 394.48l-98.68-28-6.78-77.48h48.26l3.42 39.29L256 343.07l53.42-14.92L315 264H148l-12.59-149.59H376.2z"/>
+    </svg>
+
+    <!-- svg file is needed to be in images folder with the filename logo.svg -->
+    <img src="images/logo.svg" alt="logo">
+
+    <script src="script.js"></script>
+  </body>
+</html>
