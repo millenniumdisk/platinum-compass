@@ -1,0 +1,43 @@
+<!-- p6 forms -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+
+    <title>Introduction to HTML</title>
+    
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+  </head>
+  <body>
+    <!--
+    forms collect and submit user data
+    action is location where data will be sent
+    method is HTTP method for data and it can be GET, POST, PUT, DELETE
+    GET is to receive data
+    -->
+    <form action=/api/v1/journals" method="post">
+      <input type="text">
+
+      <!-- name is needed when sending data to server -->
+      <input type="text" name="title" placeholder="Enter Title">
+
+      <!-- maxlength attribute could be used to limit the size of input -->
+      <input type="text" name="description" placeholder="Enter short description" maxlength="30">
+
+      <!--
+      required ensures there is a value in the form field before submit
+      disabled is used to prevent users from inputting and is useful when
+      submitting and we don't want users to change data while submitting
+      -->
+
+      <input type="email">
+      <input type="password">
+      <input type="date">
+    </form>
+    
+    <script src="script.js"></script>
+  </body>
+</html>
