@@ -1,4 +1,5 @@
 // p6 operators
+"use strict";
 
 console.log(7 + 9); // addition operator
 console.log(987 - 110); // subtraction operator
