@@ -16,7 +16,10 @@
     <form action=/api/v1/journals" method="post">
       <label for="journal-category">Journal Category</label>
 
-      <!-- value is the data that will be sent to the server -->
+      <!--
+      value is the data that will be sent to the server
+      (ex. category="task" where task is a predefined value from the choices
+      -->
       <select id="journal-category" name="category">
         <!-- value is needed and it is usually the same value as the choices but in lowercase  -->
         <option value="task">Task</option>
