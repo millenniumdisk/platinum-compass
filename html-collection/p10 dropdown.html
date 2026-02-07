@@ -14,7 +14,14 @@
   <body>
 
     <form action=/api/v1/journals" method="post">
+      <label for="journal-category">Journal Category</label>
 
+      <!-- value is the data that will be sent to the server -->
+      <select id="journal-category" name="category">
+        <option value="task">Task</option>
+        <option value="note">Note</option>
+        <option value="idea">Idea</option>
+      </select>
     </form>
     
     <script src="script.js"></script>
