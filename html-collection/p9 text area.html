@@ -14,7 +14,14 @@
   <body>
 
     <form action=/api/v1/journals" method="post">
-
+      <!-- id, for and name can have the same value  -->
+      <label for="journal-entry">Journal Entry</label>
+      <!--
+      rows and cols contain size in characters
+      changing the position of textarea can be done in css
+      if there is content in the middle of textarea, it will become actual text
+      -->
+      <textarea id="journal-entry" name="entry" rows="5" cols= "30"></textarea>
     </form>
     
     <script src="script.js"></script>
