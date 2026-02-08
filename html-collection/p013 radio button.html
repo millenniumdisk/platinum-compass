@@ -1,0 +1,36 @@
+<!-- p13 radio button -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+
+    <title>Introduction to HTML</title>
+    
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+  </head>
+  <body>
+
+    <form action=/clothing/shirts" method="post">
+
+      <!--
+      value of name is the same for the radio buttons but different in value because only one button can be selected
+      value is not needed in checkboxes unlike radio buttons because checkboxes are on / off in value
+      -->
+      <input id="small" type="radio" name="size" value="s">
+      <label for="small">Small</label>
+
+      <input id="medium" type="radio" name="size" value="m">
+      <label for="medium">Medium</label>
+
+      <input id="large" type="radio" name="size" value="l">
+      <label for="large">Large</label>
+
+      <button type="submit">Submit</button>
+    </form>
+    
+    <script src="script.js"></script>
+  </body>
+</html>
