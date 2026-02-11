@@ -1,1 +1,15 @@
+/* 
+p2 multiple css rules
+*/
 
+h1 {
+  color: blue;
+}
+
+h2 {
+  color: green;
+}
+
+p {
+  color: yellow;
+}
