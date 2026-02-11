@@ -1,0 +1,12 @@
+/*
+p5 descendant selector
+*/
+
+footer p {
+  font-size: 50px;
+}
+
+/* nested descendant selector */
+article header p {
+  font-style: italic;
+}
