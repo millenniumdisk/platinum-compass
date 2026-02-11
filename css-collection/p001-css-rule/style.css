@@ -2,6 +2,12 @@
 p1 css rule
 */
 
+/*
+h1 is a selector which will select all h1 elements in our html file
+color is a property and its value is blue
+declaration block is the content inside the curly braces
+selector combined with declaration block is the css rule
+*/
 h1 {
   color: blue;
 }
