@@ -1,0 +1,23 @@
+/*
+p6 id and class
+*/
+
+/* id */
+#doctype-paragraph {
+  color: red;
+}
+
+/* class */
+.paragraph-group {
+  color: green;
+}
+
+/* class on multiple elements */
+.tag-description {
+  color: blue;
+}
+
+/* multiple class on one element */
+.beginner-topics {
+  font-size: 30px;
+}
