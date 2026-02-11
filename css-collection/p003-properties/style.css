@@ -11,6 +11,7 @@ font-style can set text to italic or other modifications
 text-align can be used to center text and the element will be centered of its parent element
 text-transform turn text into uppercase or other modifications
 line-height is the spacing between lines in a paragraph and default value is 1
+elements inside the modified or styled elements are also transformed
 */
 
 h1 {
