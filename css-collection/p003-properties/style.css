@@ -13,3 +13,26 @@ text-transform turn text into uppercase or other modifications
 line-height is the spacing between lines in a paragraph and default value is 1
 */
 
+h1 {
+  font-size: 10px;
+}
+
+h2 {
+  font-family: sans-serif;
+}
+
+h3 {
+  font-style: italic;
+}
+
+h4 {
+  text-align: center;
+}
+
+p {
+  line-height: 1.5;
+}
+
+li {
+  text-transform: uppercase;
+}
