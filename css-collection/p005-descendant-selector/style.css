@@ -2,6 +2,7 @@
 p5 descendant selector
 */
 
+/* get the paragraph that is inside footer */
 footer p {
   font-size: 50px;
 }
