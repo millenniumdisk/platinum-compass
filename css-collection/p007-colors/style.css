@@ -1,0 +1,18 @@
+/*
+p7 colors
+*/
+
+/* rgb with values 0 to 255 for red green blue*/
+h1 {
+  color: rgb(255, 0, 0);  
+}
+
+/* rgb with transparency or alpha where values are from 0 to 1 (0 is transparent and 1 is not transparent) */
+h2 {
+  color: rgba(150, 150, 0, 0.6);
+}
+
+/* hexadecimal */
+p {
+  color: #266AAD;
+}
