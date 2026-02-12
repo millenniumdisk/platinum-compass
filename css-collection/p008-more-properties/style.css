@@ -12,3 +12,35 @@ border-bottom adds a border line to bottom side
 border-left adds a border line to left side
 border-right adds a border line to right side
 */
+
+.group1 {
+  font-weight: bold;
+}
+
+.group2 {
+  background-color: #6e51a8;
+}
+
+.group3 {
+  border: 10px, solid, #b02a6f;
+}
+
+.group4 {
+  border-top: 10px, solid, #ff0000;
+}
+
+.group5 {
+  border-bottom: 10px, solid, #0dff00;
+}
+
+.group6 {
+  border-left: 10px, solid, #0026ff;
+}
+
+.group7 {
+  border-right: 10px, solid, #e09616;
+}
+
+li {
+  list-style: none;
+}
