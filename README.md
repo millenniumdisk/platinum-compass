@@ -74,3 +74,4 @@ create simple programs:
 - todo list
 - random number generator
 - compound interest calculator
+- hangman game
