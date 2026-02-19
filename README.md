@@ -21,3 +21,4 @@ create simple programs:
 - square shaped line
 - todo list
 - random number generator
+- compound interest calculator
