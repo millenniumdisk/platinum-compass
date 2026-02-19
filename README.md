@@ -32,7 +32,7 @@ see the commits in the git project (analyze the history of changes)
 git log
 ```
 
-add files to staging area
+add a file to staging area
 ```bash
 git add python-notes.txt
 ```
