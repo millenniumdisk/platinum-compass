@@ -37,6 +37,11 @@ add files to staging area
 git add python-notes.txt
 ```
 
+unstage file (state of file will change to untracked or modified)
+```bash
+git rm --cached postgresql-notes.txt
+```
+
 stage all untracked and modified files
 ```bash
 git add .
