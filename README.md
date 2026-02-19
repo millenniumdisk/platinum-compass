@@ -27,7 +27,7 @@ git init
 git status
 ```
 
-- create a commit with description
+- create a commit with description (description is inside double quotes)
 ```bash
 git commit -m "Initial commit"
 ```
