@@ -27,6 +27,21 @@ git init
 git status
 ```
 
+see the commits in the git project (analyze the history of changes)
+```bash
+git log
+```
+
+add files to staging area
+```bash
+git add python-notes.txt
+```
+
+stage all untracked and modified files
+```bash
+git add .
+```
+
 - create a commit with description (description is inside double quotes)
 ```bash
 git commit -m "Initial commit"
