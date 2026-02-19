@@ -9,7 +9,7 @@ git config --global user.name "Millennium Disk"
 
 set the email
 ```bash
-git config --global user.email bstashchuk@gmail.com
+git config --global user.email millenniumdiskette
 ```
 
 see the configuration of git
