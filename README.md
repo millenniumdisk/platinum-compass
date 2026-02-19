@@ -2,7 +2,7 @@
 
 in git:
 
-set the username (doubles quotes are needed if name contains a space)
+set the username where doubles quotes are needed if name contains a space (--global means this applies to all repositories of the current user)
 ```bash
 git config --global user.name "Millennium Disk"
 ```
