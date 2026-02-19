@@ -17,6 +17,21 @@ see the configuration of git
 git config --list
 ```
 
+initialize directory
+```bash
+git init
+```
+
+check status of git project
+```bash
+git status
+```
+
+create a commit with description
+```bash
+git commit -m "Initial commit"
+```
+
 create simple programs:
 - temperature converter
 - drop chance calculator
