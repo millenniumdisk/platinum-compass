@@ -1,5 +1,22 @@
 # Platinum Compass
 
+in git:
+
+set the username (doubles quotes are needed if name contains a space)
+```bash
+git config --global user.name "Millennium Disk"
+```
+
+set the email
+```bash
+git config --global user.email bstashchuk@gmail.com
+```
+
+see the configuration of git
+```bash
+git config --list
+```
+
 create simple programs:
 - temperature converter
 - drop chance calculator
