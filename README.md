@@ -17,7 +17,7 @@ git config --global user.email millenniumdiskette@gmail.com
 git config --list
 ```
 
-- initialize directory
+- initialize git in the current project directory and create a .git folder
 ```bash
 git init
 ```
