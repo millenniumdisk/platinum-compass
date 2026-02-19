@@ -2,32 +2,32 @@
 
 in git:
 
-set the username where doubles quotes are needed if name contains a space (--global means this applies to all repositories of the current user)
+- set the username where doubles quotes are needed if name contains a space (--global means this applies to all repositories of the current user)
 ```bash
 git config --global user.name "Millennium Disk"
 ```
 
-set the email
+- set the email
 ```bash
 git config --global user.email millenniumdiskette
 ```
 
-see the configuration of git
+- see the configuration of git
 ```bash
 git config --list
 ```
 
-initialize directory
+- initialize directory
 ```bash
 git init
 ```
 
-check status of git project
+- check status of git project
 ```bash
 git status
 ```
 
-create a commit with description
+- create a commit with description
 ```bash
 git commit -m "Initial commit"
 ```
