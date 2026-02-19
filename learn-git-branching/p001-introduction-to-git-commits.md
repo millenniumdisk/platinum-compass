@@ -1,4 +1,4 @@
-Commit the files in Git
+Commit the files in Git.
 ```bash
 git commit
 ```
