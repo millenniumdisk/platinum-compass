@@ -1,6 +1,6 @@
 # Platinum Compass
 
-in git:
+## Git Commands
 
 - set the username where doubles quotes are needed if name contains a space (--global means this applies to all repositories of the current user)
 ```bash
