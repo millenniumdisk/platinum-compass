@@ -41,7 +41,7 @@ git log
 git add python-notes.txt
 ```
 
-- unstage file (state of file will change to untracked or modified)
+- unstage a file (state of file will change to untracked or modified)
 ```bash
 git rm --cached postgresql-notes.txt
 ```
