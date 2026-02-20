@@ -72,3 +72,24 @@ git branch bugFix
 ```bash
 git checkout bugFix
 ```
+
+- delete a specific branch. With -d, you can only delete merged branch. If branch was not merged, you will not be able to do that with -d. You should use forced delete with capital D or -D
+```bash
+git branch -d bugFix
+```
+
+- rename a specific branch (changes name from temp to new-temp)
+```bash
+git branch -m temp new-temp
+```
+
+- create a branch and checking it out automatically. If you use -b option, this branch that you specify should be absent at this moment and only in this case the branch will be created and automatically checked out (create BR-1 branch)
+```bash
+git checkout -b BR-1
+```
+
+### Git Clone
+- clone a repository that includes .git folder using the web URL of the repository (URL changes depending on the user / owner and repository name)
+```bash
+git clone https://github.com/millenniumdisk/platinum-compass.git
+```
