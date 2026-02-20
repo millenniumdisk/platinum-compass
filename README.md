@@ -27,22 +27,22 @@ git init
 git status
 ```
 
-see the commits in the git project (analyze the history of changes)
+- see the commits in the git project (analyze the history of changes)
 ```bash
 git log
 ```
 
-add a file to staging area
+- add a file to staging area
 ```bash
 git add python-notes.txt
 ```
 
-unstage file (state of file will change to untracked or modified)
+- unstage file (state of file will change to untracked or modified)
 ```bash
 git rm --cached postgresql-notes.txt
 ```
 
-stage all untracked and modified files
+- stage all untracked and modified files
 ```bash
 git add .
 ```
