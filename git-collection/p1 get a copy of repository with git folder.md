@@ -6,3 +6,8 @@ get a copy of repository with git folder
 - add a text file with the name python-notes.txt
 - stage the file
 - create a commit
+
+add another file and commit the changes
+- add a text file with the name javascript-notes.txt
+- stage the file
+- commit
