@@ -18,3 +18,13 @@ create a branch
 - add a text file with the name html-notes.txt
 - stage the file
 - commit
+
+check the main branch
+- go to main branch with git checkout
+- use git status
+- use git log
+- use git branch
+- go to feature1 branch
+- use git status
+- use git log
+- use git branch
