@@ -11,3 +11,10 @@ add another file and commit the changes
 - add a text file with the name javascript-notes.txt
 - stage the file
 - commit
+
+create a branch
+- create a new branch with the name feature1
+- checkout the new branch
+- add a text file with the name html-notes.txt
+- stage the file
+- commit
