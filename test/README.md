@@ -127,23 +127,43 @@ const val1 = "The hashtag symbol is technically called an octothorpe";
 const val2 = 73;
 const val3 = true;
 const val4 = {
-  health = 87691;
+  health: 87691,
 };
 const val5 = BigInt(988012654290834076209843); // a value followed by n can be used instead of BigInt()
-const val6 = null;
-const val7;
-const val8 = Symbol();
 
-const val9 = 98164389982647634733984444n;
+const val6 = null;
+let val7;
+const val8 = Symbol();
+let val9 = 478915654878945613487n;
+const val10 = 48.52;
 
 console.log("VAL1: " + val1);
+console.log(typeof val1);
+
 console.log("VAL2: " + val2);
+console.log(typeof val2);
+
 console.log("VAL3: " + val3);
-console.log("VAL4: " + val4);
+console.log(typeof val3);
+
+console.log(val4);
+console.log(typeof val4);
+
 console.log("VAL5: " + val5);
+console.log(typeof val5);
 
 console.log("VAL6: " + val6);
+console.log(typeof val6);
+
 console.log("VAL7: " + val7);
-console.log("VAL8: " + val8);
+console.log(typeof val7);
+
+console.log(val8);
+console.log(typeof val8);
+
 console.log("VAL9: " + val9);
+console.log(typeof val9);
+
+console.log("VAL10: " + val10);
+console.log(typeof val10);
 ```
