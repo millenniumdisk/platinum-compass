@@ -1,7 +1,7 @@
 js
 
 ```js
-// display a string
+// display a string with a function
 "use strict"; //  always use this in order to see errors in the javascript code
 
 console.log("I want to create a project that uses JavaScript"); // use a function
