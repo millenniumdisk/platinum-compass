@@ -4,7 +4,7 @@ js
 // display a string
 "use strict"; //  always use this in order to see errors in the javascript code
 
-console.log("I want to create a project that uses JavaScript");
+console.log("I want to create a project that uses JavaScript"); // use a function
 ```
 
 <!-- -->
@@ -72,7 +72,10 @@ console.log("NUM3: ", num3);
 /*
 declares a variable where its value can't be changed later on
 
-when used on an object, a property can be changed in the object but the whole object itself can't be changed. this is because the address or reference that points to the memory address can't be changed but the value stored in it can be changed
+when used on an object, a property can be changed in the
+object but the whole object itself can't be changed. this is because
+the address or reference that points to the memory address can't
+be changed but the value stored in it can be changed
 */
 const num = 5;
 
@@ -106,5 +109,3 @@ console.log("HEALTH: " + playerObject.health);
 <!-- -->
 <!-- -->
 <!-- -->
-
-function
