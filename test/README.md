@@ -13,12 +13,14 @@ console.log("I want to create a project that uses JavaScript");
 <!-- -->
 <!-- -->
 
+```js
 // declare a variable
 "use strict";
 
 let num; // declares a variable and its value can be changed later on
 
 console.log(num); // display the value of the variable
+```
 
 <!-- -->
 <!-- -->
@@ -26,6 +28,7 @@ console.log(num); // display the value of the variable
 <!-- -->
 <!-- -->
 
+```js
 // assign a value to a variable
 "use strict";
 
@@ -34,6 +37,7 @@ let num;
 num = 5;
 
 console.log("NUM: " + num);
+```
 
 <!-- -->
 <!-- -->
@@ -41,6 +45,7 @@ console.log("NUM: " + num);
 <!-- -->
 <!-- -->
 
+```js
 // multiple variable declarations
 "use strict";
 
@@ -53,6 +58,7 @@ num3 = -71;
 console.log("NUM1: ", num1);
 console.log("NUM2: ", num2);
 console.log("NUM3: ", num3);
+```
 
 <!-- -->
 <!-- -->
@@ -60,6 +66,7 @@ console.log("NUM3: ", num3);
 <!-- -->
 <!-- -->
 
+```js
 "use strict";
 
 /*
@@ -70,6 +77,7 @@ when used on an object, a property can be changed in the object but the whole ob
 const num = 5;
 
 console.log(num);
+```
 
 <!-- -->
 <!-- -->
@@ -77,6 +85,7 @@ console.log(num);
 <!-- -->
 <!-- -->
 
+```js
 "use strict";
 
 const playerObject {
@@ -90,6 +99,7 @@ console.log("HEALTH: " + playerObject.health);
 playerObject.health = 1329;
 
 console.log("HEALTH: " + playerObject.health);
+```
 
 <!-- -->
 <!-- -->
@@ -98,9 +108,3 @@ console.log("HEALTH: " + playerObject.health);
 <!-- -->
 
 function
-
-object
-
-working examples
-
-let num1;
