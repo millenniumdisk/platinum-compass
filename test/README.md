@@ -1,9 +1,11 @@
 js
 
+```js
 // display a string
 "use strict"; //  always use this in order to see errors in the javascript code
 
 console.log("I want to create a project that uses JavaScript");
+```
 
 <!-- -->
 <!-- -->
@@ -17,6 +19,7 @@ console.log("I want to create a project that uses JavaScript");
 let num; // declares a variable and its value can be changed later on
 
 console.log(num); // display the value of the variable
+
 <!-- -->
 <!-- -->
 <!-- -->
@@ -66,7 +69,33 @@ when used on an object, a property can be changed in the object but the whole ob
 */
 const num = 5;
 
+console.log(num);
 
+<!-- -->
+<!-- -->
+<!-- -->
+<!-- -->
+<!-- -->
+
+"use strict";
+
+const playerObject {
+  health = 26189;
+  attack = 3812;
+  defense = 2341;
+};
+
+console.log("HEALTH: " + playerObject.health);
+
+playerObject.health = 1329;
+
+console.log("HEALTH: " + playerObject.health);
+
+<!-- -->
+<!-- -->
+<!-- -->
+<!-- -->
+<!-- -->
 
 function
 
