@@ -67,6 +67,7 @@ console.log("NUM3: ", num3);
 <!-- -->
 
 ```js
+// const with initialization
 "use strict";
 
 /*
@@ -77,11 +78,14 @@ object but the whole object itself can't be changed. this is because
 the address or reference that points to the memory address can't
 be changed but the value stored in it can be changed
 
-it is better to always use const and then change it to let when declaring variables in order to minimize the problem of debugging errors which will come when variables are accidently used in a calculation or statement and its value becomes modified unintentionally
+it is better to always use const and then change it to let
+when declaring variables in order to minimize the problem of
+debugging errors which will come when variables are accidently
+used in a calculation or statement and its value becomes modified unintentionally
 
 use let when the variable's value will be changed later on
 */
-const num = 5;
+const num = 5; // variable declared with const needs to be initialized right away
 
 console.log(num);
 ```
@@ -93,6 +97,7 @@ console.log(num);
 <!-- -->
 
 ```js
+// changing one property in a const object
 "use strict";
 
 const playerObject = {
