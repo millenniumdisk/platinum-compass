@@ -76,6 +76,10 @@ when used on an object, a property can be changed in the
 object but the whole object itself can't be changed. this is because
 the address or reference that points to the memory address can't
 be changed but the value stored in it can be changed
+
+it is better to always use const and then change it to let when declaring variables in order to minimize the problem of debugging errors which will come when variables are accidently used in a calculation or statement and its value becomes modified unintentionally
+
+use let when the variable's value will be changed later on
 */
 const num = 5;
 
