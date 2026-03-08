@@ -91,7 +91,7 @@ console.log(num);
 ```js
 "use strict";
 
-const playerObject {
+const playerObject = {
   health = 26189;
   attack = 3812;
   defense = 2341;
