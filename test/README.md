@@ -55,9 +55,9 @@ num1 = 5;
 num2 = 123;
 num3 = -71;
 
-console.log("NUM1: ", num1);
-console.log("NUM2: ", num2);
-console.log("NUM3: ", num3);
+console.log("NUM1:", num1);
+console.log("NUM2:", num2);
+console.log("NUM3:", num3);
 ```
 
 <!-- -->
@@ -101,9 +101,9 @@ console.log(num);
 "use strict";
 
 const playerObject = {
-  health = 26189;
-  attack = 3812;
-  defense = 2341;
+  health: 26189,
+  attack: 3812,
+  defense: 2341
 };
 
 console.log("HEALTH: " + playerObject.health);
@@ -118,3 +118,32 @@ console.log("HEALTH: " + playerObject.health);
 <!-- -->
 <!-- -->
 <!-- -->
+
+```js
+// data types
+"use strict";
+
+const val1 = "The hashtag symbol is technically called an octothorpe";
+const val2 = 73;
+const val3 = true;
+const val4 = {
+  health = 87691;
+};
+const val5 = BigInt(988012654290834076209843); // a value followed by n can be used instead of BigInt()
+const val6 = null;
+const val7;
+const val8 = Symbol();
+
+const val9 = 98164389982647634733984444n;
+
+console.log("VAL1: " + val1);
+console.log("VAL2: " + val2);
+console.log("VAL3: " + val3);
+console.log("VAL4: " + val4);
+console.log("VAL5: " + val5);
+
+console.log("VAL6: " + val6);
+console.log("VAL7: " + val7);
+console.log("VAL8: " + val8);
+console.log("VAL9: " + val9);
+```
